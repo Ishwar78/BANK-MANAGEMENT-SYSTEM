@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: #34495e; 
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Center error message */
+.center span {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+/* Container for the form */
+.form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+}
+
+/* Styling for form elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #34495e; 
+}
+
+/* Input field styling */
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease; 
+}
+
+input[type="text"]:focus {
+    border-color: #3498db; 
+    outline: none; 
+}
+
+/* Button styling */
+input[type="reset"], input[type="submit"] {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease; 
+}
+
+input[type="reset"]:hover, input[type="submit"]:hover {
+    background-color: #2980b9; 
+}
+
+/* Back button styling */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #3498db; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; 
+}
+
+.back-button:hover {
+    background-color: #2980b9; 
+    text-decoration: none; 
+}
+
+/* Error message styling */
+span[style*="color: red"] {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
